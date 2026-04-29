@@ -1,0 +1,194 @@
+[     695ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:24833
+[   19016ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:241
+[   19900ms] [LOG] [Fast Refresh] done in 884ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:73
+[   54282ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:241
+[   54465ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:241
+[   54494ms] [LOG] [Fast Refresh] done in 29ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:73
+[   54626ms] [ERROR] ./src/app/page.tsx
+Error:   × Unexpected token `div`. Expected jsx identifier
+    ╭─[C:\Users\Visha\Desktop\my_space\employee_directory\src\app\page.tsx:36:1]
+ 33 │   const employees = await getEmployees(params.dept);
+ 34 │ 
+ 35 │   return (
+ 36 │     <div className="p-8 space-y-8 animate-in fade-in duration-500">
+    ·      ───
+ 37 │       {/* Header Area */}
+ 38 │       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+ 38 │         <div>
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/globals/intercept-console-error.js:51
+[   55646ms] [LOG] [Fast Refresh] done in 1181ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:73
+[   55965ms] [LOG] [Fast Refresh] done in 1499ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:73
+[   56071ms] [ERROR] ./src/app/page.tsx
+Error:   × Unexpected token `div`. Expected jsx identifier
+    ╭─[C:\Users\Visha\Desktop\my_space\employee_directory\src\app\page.tsx:36:1]
+ 33 │   const employees = await getEmployees(params.dept);
+ 34 │ 
+ 35 │   return (
+ 36 │     <div className="p-8 space-y-8 animate-in fade-in duration-500">
+    ·      ───
+ 37 │       {/* Header Area */}
+ 38 │       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+ 38 │         <div>
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/globals/intercept-console-error.js:51
+[   56677ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=1oqwi:0
+[   56848ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=1oqwi:0
+[   56910ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=1oqwi:0
+[   56976ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   57254ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:28004
+[   57328ms] ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Unexpected token `div`. Expected jsx identifier
+    ╭─[C:\Users\Visha\Desktop\my_space\employee_directory\src\app\page.tsx:36:1]
+ 33 │   const employees = await getEmployees(params.dept);
+ 34 │ 
+ 35 │   return (
+ 36 │     <div className="p-8 space-y-8 animate-in fade-in duration-500">
+    ·      ───
+ 37 │       {/* Header Area */}
+ 38 │       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+ 38 │         <div>
+    ╰────
+
+
+Caused by:
+    Syntax Error
+    at processResult (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\webpack\bundle5.js:29:407111)
+    at <unknown> (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\webpack\bundle5.js:29:408906)
+    at <unknown> (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8645)
+    at <unknown> (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5019)
+    at r.callback (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4039)
+[   57326ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:41
+[   57330ms] [ERROR] ./src/app/page.tsx
+Error:   × Unexpected token `div`. Expected jsx identifier
+    ╭─[C:\Users\Visha\Desktop\my_space\employee_directory\src\app\page.tsx:36:1]
+ 33 │   const employees = await getEmployees(params.dept);
+ 34 │ 
+ 35 │   return (
+ 36 │     <div className="p-8 space-y-8 animate-in fade-in duration-500">
+    ·      ───
+ 37 │       {/* Header Area */}
+ 38 │       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+ 38 │         <div>
+    ╰────
+
+Caused by:
+    Syntax Error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[   57331ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[   75698ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[   75720ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   76100ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:28004
+[   76106ms] ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Unexpected token `div`. Expected jsx identifier
+    ╭─[C:\Users\Visha\Desktop\my_space\employee_directory\src\app\page.tsx:36:1]
+ 33 │   const employees = await getEmployees(params.dept);
+ 34 │ 
+ 35 │   return (
+ 36 │     <div className="p-8 space-y-8 animate-in fade-in duration-500">
+    ·      ───
+ 37 │       {/* Header Area */}
+ 38 │       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+ 38 │         <div>
+    ╰────
+
+
+Caused by:
+    Syntax Error
+    at processResult (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\webpack\bundle5.js:29:407111)
+    at <unknown> (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\webpack\bundle5.js:29:408906)
+    at <unknown> (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8645)
+    at <unknown> (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5019)
+    at r.callback (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4039)
+[   76106ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:41
+[   76107ms] [ERROR] ./src/app/page.tsx
+Error:   × Unexpected token `div`. Expected jsx identifier
+    ╭─[C:\Users\Visha\Desktop\my_space\employee_directory\src\app\page.tsx:36:1]
+ 33 │   const employees = await getEmployees(params.dept);
+ 34 │ 
+ 35 │   return (
+ 36 │     <div className="p-8 space-y-8 animate-in fade-in duration-500">
+    ·      ───
+ 37 │       {/* Header Area */}
+ 38 │       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+ 38 │         <div>
+    ╰────
+
+Caused by:
+    Syntax Error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[   76108ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[   90092ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[   90112ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   90527ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:28004
+[   90534ms] ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Unexpected token `div`. Expected jsx identifier
+    ╭─[C:\Users\Visha\Desktop\my_space\employee_directory\src\app\page.tsx:36:1]
+ 33 │   const employees = await getEmployees(params.dept);
+ 34 │ 
+ 35 │   return (
+ 36 │     <div className="p-8 space-y-8 animate-in fade-in duration-500">
+    ·      ───
+ 37 │       {/* Header Area */}
+ 38 │       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+ 38 │         <div>
+    ╰────
+
+
+Caused by:
+    Syntax Error
+    at processResult (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\webpack\bundle5.js:29:407111)
+    at <unknown> (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\webpack\bundle5.js:29:408906)
+    at <unknown> (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8645)
+    at <unknown> (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5019)
+    at r.callback (file://C:\Users\Visha\Desktop\my_space\employee_directory\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4039)
+[   90535ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:41
+[   90536ms] [ERROR] ./src/app/page.tsx
+Error:   × Unexpected token `div`. Expected jsx identifier
+    ╭─[C:\Users\Visha\Desktop\my_space\employee_directory\src\app\page.tsx:36:1]
+ 33 │   const employees = await getEmployees(params.dept);
+ 34 │ 
+ 35 │   return (
+ 36 │     <div className="p-8 space-y-8 animate-in fade-in duration-500">
+    ·      ───
+ 37 │       {/* Header Area */}
+ 38 │       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+ 38 │         <div>
+    ╰────
+
+Caused by:
+    Syntax Error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[   90538ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72

@@ -1,0 +1,81 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e7]
+        - text: StaffSync
+      - button "Add Employee" [ref=e13]:
+        - img [ref=e14]
+        - text: Add Employee
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - heading "Employee Directory" [level=1] [ref=e20]
+          - paragraph [ref=e21]: Manage and view all staff members across the organization.
+        - generic [ref=e23]:
+          - text: "Filter by:"
+          - combobox [ref=e24]:
+            - img [ref=e25]
+          - combobox [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e30]: All Employees5
+        - table [ref=e33]:
+          - rowgroup [ref=e34]:
+            - row "ID Name Position Salary Action" [ref=e35]:
+              - columnheader "ID" [ref=e36]
+              - columnheader "Name" [ref=e37]
+              - columnheader "Position" [ref=e38]
+              - columnheader "Salary" [ref=e39]
+              - columnheader "Action" [ref=e40]
+          - rowgroup [ref=e41]:
+            - row "Alice Johnson Senior Software Engineer $120,000 View Details" [ref=e42]:
+              - cell [ref=e43]
+              - cell "Alice Johnson" [ref=e44]
+              - cell "Senior Software Engineer" [ref=e45]
+              - cell "$120,000" [ref=e46]
+              - cell "View Details" [ref=e47]:
+                - link "View Details" [ref=e48] [cursor=pointer]:
+                  - /url: /employee/undefined
+                  - text: View Details
+                  - img [ref=e49]
+            - row "Bob Smith HR Manager $95,000 View Details" [ref=e53]:
+              - cell [ref=e54]
+              - cell "Bob Smith" [ref=e55]
+              - cell "HR Manager" [ref=e56]
+              - cell "$95,000" [ref=e57]
+              - cell "View Details" [ref=e58]:
+                - link "View Details" [ref=e59] [cursor=pointer]:
+                  - /url: /employee/undefined
+                  - text: View Details
+                  - img [ref=e60]
+            - row "Charlie Brown Sales Representative $80,000 View Details" [ref=e64]:
+              - cell [ref=e65]
+              - cell "Charlie Brown" [ref=e66]
+              - cell "Sales Representative" [ref=e67]
+              - cell "$80,000" [ref=e68]
+              - cell "View Details" [ref=e69]:
+                - link "View Details" [ref=e70] [cursor=pointer]:
+                  - /url: /employee/undefined
+                  - text: View Details
+                  - img [ref=e71]
+            - row "Diana Prince Marketing Lead $110,000 View Details" [ref=e75]:
+              - cell [ref=e76]
+              - cell "Diana Prince" [ref=e77]
+              - cell "Marketing Lead" [ref=e78]
+              - cell "$110,000" [ref=e79]
+              - cell "View Details" [ref=e80]:
+                - link "View Details" [ref=e81] [cursor=pointer]:
+                  - /url: /employee/undefined
+                  - text: View Details
+                  - img [ref=e82]
+            - row "Edward Norton CTO $250,000 View Details" [ref=e86]:
+              - cell [ref=e87]
+              - cell "Edward Norton" [ref=e88]
+              - cell "CTO" [ref=e89]
+              - cell "$250,000" [ref=e90]
+              - cell "View Details" [ref=e91]:
+                - link "View Details" [ref=e92] [cursor=pointer]:
+                  - /url: /employee/undefined
+                  - text: View Details
+                  - img [ref=e93]

@@ -1,0 +1,76 @@
+- generic [active]:
+  - generic:
+    - generic [ref=e5] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=e6]:
+        - img [ref=e7]
+      - button "Open issues overlay" [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: "0"
+          - generic [ref=e14]: "1"
+        - generic [ref=e15]: Issue
+    - generic [ref=e18]:
+      - dialog "Build Error" [ref=e19]:
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - generic [ref=e23]:
+              - generic [ref=e24]:
+                - generic [ref=e26]: Build Error
+                - generic [ref=e27]:
+                  - button "Copy Stack Trace" [ref=e28] [cursor=pointer]:
+                    - img [ref=e29]
+                  - button "No related documentation found" [disabled] [ref=e31]:
+                    - img [ref=e32]
+                  - link "Learn more about enabling Node.js inspector for server code with Chrome DevTools" [ref=e34] [cursor=pointer]:
+                    - /url: https://nextjs.org/docs/app/building-your-application/configuring/debugging#server-side-code
+                    - img [ref=e35]
+              - paragraph [ref=e44]: "Error: × Unexpected token `div`. Expected jsx identifier"
+            - generic [ref=e46]:
+              - generic [ref=e48]:
+                - img [ref=e50]
+                - generic [ref=e53]: ./src/app/page.tsx
+                - button "Open in editor" [ref=e54] [cursor=pointer]:
+                  - img [ref=e56]
+              - generic [ref=e58]:
+                - generic [ref=e59]: "Error:"
+                - text: ×
+                - generic [ref=e60]: "Unexpected token `div`. Expected jsx identifier ╭─["
+                - text: C:\Users\Visha\Desktop\my_space\employee_directory\src\app\page.tsx
+                - generic [ref=e61]: :36:1]
+                - text: "33"
+                - generic [ref=e62]: │ const employees = await getEmployees(params.dept);
+                - text: "34"
+                - generic [ref=e63]: │
+                - text: "35"
+                - generic [ref=e64]: │ return (
+                - text: "36"
+                - generic [ref=e65]: │ <div className="p-8 space-y-8 animate-in fade-in duration-500"> ·
+                - generic [ref=e66]: ───
+                - text: "37"
+                - generic [ref=e67]: "│ {/* Header Area */}"
+                - text: "38"
+                - generic [ref=e68]: │ <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                - text: "38"
+                - generic [ref=e69]: "│ <div> ╰──── Caused by: Syntax Error"
+          - contentinfo [ref=e71]:
+            - paragraph [ref=e72]: This error occurred during the build process and can only be dismissed by fixing the error.
+          - generic [ref=e73]:
+            - generic [ref=e74]: "1"
+            - generic [ref=e75]: "2"
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - navigation [ref=e78]:
+            - button "previous" [disabled] [ref=e79]:
+              - img "previous" [ref=e80]
+            - generic [ref=e82]:
+              - generic [ref=e83]: 1/
+              - text: "1"
+            - button "next" [disabled] [ref=e84]:
+              - img "next" [ref=e85]
+          - img
+        - generic [ref=e87]:
+          - link "Next.js 15.2.1-canary.2 (outdated)" [ref=e88] [cursor=pointer]:
+            - /url: https://nextjs.org/docs/messages/version-staleness
+            - img [ref=e89]
+            - generic "An outdated version detected (latest is 16.2.4), upgrade is highly recommended!" [ref=e91]: Next.js 15.2.1-canary.2 (outdated)
+          - img
+  - alert [ref=e92]

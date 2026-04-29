@@ -1,0 +1,36 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e7]
+        - text: StaffSync
+      - button "Add Employee" [ref=e13]:
+        - img [ref=e14]
+        - text: Add Employee
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - heading "Employee Directory" [level=1] [ref=e20]
+          - paragraph [ref=e21]: Manage and view all staff members across the organization.
+        - generic [ref=e23]:
+          - text: "Filter by:"
+          - combobox [ref=e24]:
+            - img [ref=e25]
+          - combobox [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e30]: All Employees0
+        - table [ref=e33]:
+          - rowgroup [ref=e34]:
+            - row "ID Name Position Salary Action" [ref=e35]:
+              - columnheader "ID" [ref=e36]
+              - columnheader "Name" [ref=e37]
+              - columnheader "Position" [ref=e38]
+              - columnheader "Salary" [ref=e39]
+              - columnheader "Action" [ref=e40]
+          - rowgroup [ref=e41]:
+            - row "No employees found for this criteria." [ref=e42]:
+              - cell "No employees found for this criteria." [ref=e43]:
+                - generic [ref=e44]:
+                  - img [ref=e45]
+                  - paragraph [ref=e50]: No employees found for this criteria.

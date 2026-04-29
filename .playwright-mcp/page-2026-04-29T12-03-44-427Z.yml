@@ -1,0 +1,234 @@
+- generic:
+  - generic:
+    - complementary:
+      - generic:
+        - generic:
+          - img
+        - generic: StaffSync
+      - navigation:
+        - generic:
+          - paragraph: Main Menu
+          - list:
+            - listitem:
+              - link:
+                - /url: "#"
+                - img
+                - text: Dashboard
+            - listitem:
+              - link:
+                - /url: /
+                - img
+                - text: Employees
+            - listitem:
+              - link:
+                - /url: "#"
+                - img
+                - text: Departments
+            - listitem:
+              - link:
+                - /url: "#"
+                - img
+                - text: Add Member
+        - generic:
+          - paragraph: System
+          - list:
+            - listitem:
+              - link:
+                - /url: "#"
+                - img
+                - text: Settings
+            - listitem:
+              - link:
+                - /url: "#"
+                - img
+                - text: Help Center
+      - generic:
+        - button:
+          - img
+          - text: Logout
+    - generic:
+      - banner:
+        - generic:
+          - img
+          - textbox:
+            - /placeholder: Search employees, departments...
+            - text: bob
+        - generic:
+          - button:
+            - img
+          - button:
+            - generic: JD
+            - generic:
+              - paragraph: Jane Doe
+              - paragraph: Admin
+            - img
+      - main:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=1]: Employees
+              - paragraph: Manage, filter and organize your team members efficiently.
+            - generic:
+              - button:
+                - img
+                - text: Export
+              - button [expanded]:
+                - img
+                - text: Add Employee
+          - generic:
+            - generic:
+              - generic:
+                - generic: "Filter by:"
+                - combobox:
+                  - generic: All Departments
+                  - img
+            - generic:
+              - text: Showing
+              - generic: "5"
+              - text: results
+          - generic:
+            - generic:
+              - generic:
+                - table:
+                  - rowgroup:
+                    - row:
+                      - columnheader: ID
+                      - columnheader: Employee
+                      - columnheader: Position
+                      - columnheader: Salary
+                      - columnheader: Action
+                  - rowgroup:
+                    - row:
+                      - cell: P001
+                      - cell:
+                        - generic:
+                          - generic: AJ
+                          - generic:
+                            - paragraph: Alice Johnson
+                            - paragraph: alice@example.com
+                      - cell:
+                        - generic:
+                          - paragraph: Senior Software Engineer
+                          - generic: Engineering
+                      - cell: $120,000
+                      - cell:
+                        - generic:
+                          - link:
+                            - /url: /employee/EMP001
+                            - text: Details
+                          - button:
+                            - img
+                    - row:
+                      - cell: P002
+                      - cell:
+                        - generic:
+                          - generic: BS
+                          - generic:
+                            - paragraph: Bob Smith
+                            - paragraph: bob@example.com
+                      - cell:
+                        - generic:
+                          - paragraph: HR Manager
+                          - generic: Human Resources
+                      - cell: $95,000
+                      - cell:
+                        - generic:
+                          - link:
+                            - /url: /employee/EMP002
+                            - text: Details
+                          - button:
+                            - img
+                    - row:
+                      - cell: P003
+                      - cell:
+                        - generic:
+                          - generic: CB
+                          - generic:
+                            - paragraph: Charlie Brown
+                            - paragraph: charlie@example.com
+                      - cell:
+                        - generic:
+                          - paragraph: Sales Representative
+                          - generic: Sales
+                      - cell: $80,000
+                      - cell:
+                        - generic:
+                          - link:
+                            - /url: /employee/EMP003
+                            - text: Details
+                          - button:
+                            - img
+                    - row:
+                      - cell: P004
+                      - cell:
+                        - generic:
+                          - generic: DP
+                          - generic:
+                            - paragraph: Diana Prince
+                            - paragraph: diana@example.com
+                      - cell:
+                        - generic:
+                          - paragraph: Marketing Lead
+                          - generic: Marketing
+                      - cell: $110,000
+                      - cell:
+                        - generic:
+                          - link:
+                            - /url: /employee/EMP004
+                            - text: Details
+                          - button:
+                            - img
+                    - row:
+                      - cell: P005
+                      - cell:
+                        - generic:
+                          - generic: EN
+                          - generic:
+                            - paragraph: Edward Norton
+                            - paragraph: edward@example.com
+                      - cell:
+                        - generic:
+                          - paragraph: CTO
+                          - generic: Executive
+                      - cell: $250,000
+                      - cell:
+                        - generic:
+                          - link:
+                            - /url: /employee/EMP005
+                            - text: Details
+                          - button:
+                            - img
+  - button [ref=e270] [cursor=pointer]:
+    - img [ref=e7]
+  - alert
+  - dialog "Add New Employee" [ref=e272]:
+    - generic [ref=e273]:
+      - generic [ref=e274]:
+        - heading "Add New Employee" [level=2] [ref=e275]
+        - paragraph [ref=e276]: Enter the employee details below. Click save when you're done.
+      - generic [ref=e277]:
+        - generic [ref=e278]:
+          - generic [ref=e279]: Employee ID
+          - textbox "Employee ID" [active] [ref=e280]:
+            - /placeholder: EMP-001
+        - generic [ref=e281]:
+          - generic [ref=e282]: Full Name
+          - textbox "Full Name" [ref=e283]:
+            - /placeholder: John Doe
+        - generic [ref=e284]:
+          - generic [ref=e285]: Position
+          - textbox "Position" [ref=e286]:
+            - /placeholder: Software Engineer
+        - generic [ref=e287]:
+          - generic [ref=e288]: Salary
+          - spinbutton "Salary" [ref=e289]
+        - generic [ref=e290]:
+          - generic [ref=e291]: Department
+          - combobox [ref=e292] [cursor=pointer]:
+            - generic: Select department
+            - img [ref=e293]
+          - combobox [ref=e295]
+      - button "Save changes" [ref=e297] [cursor=pointer]
+    - button "Close" [ref=e298] [cursor=pointer]:
+      - img [ref=e299]
+      - generic [ref=e302]: Close
